@@ -1,0 +1,98 @@
+[
+	{
+		"sno": "1",
+		"name": "Strategic Career Self-Management",
+		"description": "increase self-awareness pinpoint your career goals and envision your future work self",
+		"price": "63",
+		"length": "6",
+		"type": "c"
+	},
+	{
+		"sno": "2",
+		"name": "De-Mystifying Mindfulness",
+		"description": "Inclusive education about (and in) mindfulness as a contemporary phenomenon",
+		"price": "26",
+		"length": "5",
+		"type": "p"
+	},
+	{
+		"sno": "3",
+		"name": "Modern Finance",
+		"description": "Understand and use financial ideas to build a successful career in finance",
+		"price": "93",
+		"length": "2",
+		"type": "c"
+	},
+	{
+		"sno": "4",
+		"name": "Career Success Project",
+		"description": " Learn to skillfully use a powerful strategic planning tool",
+		"price": "95",
+		"length": "5",
+		"type": "c"
+	},
+	{
+		"sno": "5",
+		"name": "Job Success",
+		"description": "A professional pitch that highlights your strengths and skills",
+		"price": "66",
+		"length": "4",
+		"type": "c"
+	},
+	{
+		"sno": "6",
+		"name": "Achieving PersonalSuccess",
+		"description": "Define Success and Use Influence to Accomplish Personal and Career Goals",
+		"price": "37",
+		"length": "6",
+		"type": "p"
+	},
+	{
+		"sno": "7",
+		"name": "Career Success",
+		"description": "Apply management principles and problem-solving skills",
+		"price": "37",
+		"length": "8",
+		"type": "c"
+	},
+	{
+		"sno": "8",
+		"name": "Successful Career Development",
+		"description": "Evaluate the best methods of adjusting your career path at various stages of life",
+		"price": "20",
+		"length": "3",
+		"type": "c"
+	},
+	{
+		"sno": "9",
+		"name": "The Science of Success",
+		"description": "Learn specific steps for achieving your most treasured life goals",
+		"price": "34",
+		"length": "3",
+		"type": "p"
+	},
+	{
+		"sno": "10",
+		"name": "Positive Psychology",
+		"description": "Learn to live a full and meaningful life",
+		"price": "72",
+		"length": "3",
+		"type": "p"
+	},
+	{
+		"sno": "11",
+		"name": "The Science of Well-Being",
+		"description": "Increase your own happiness and build more productive habits",
+		"price": "40",
+		"length": "2",
+		"type": "p"
+	},
+	{
+		"sno": "12",
+		"name": "A Life of Fulfillment",
+		"description": "Gain a deeper understanding of the science of happiness and be significantly happier",
+		"price": "37",
+		"length": "4",
+		"type": "p"
+	}
+]

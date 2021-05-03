@@ -1,0 +1,381 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+nav{
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 125px;
+  box-shadow: 0 0.5px 10px grey;
+}
+#logo{
+  text-align: center;
+  display: inline-block;
+  margin: 0 0 0 20%;
+  padding: 37.5px 17px;
+  font-size: 17px;
+  font-weight: 800;
+}
+#logo span{
+  font-size: 14px;
+  font-weight: 300;
+}
+.navBar{
+  margin: 0 20% 0 0;
+  float: right;
+}
+.navBar li{
+  display: inline;
+}
+.navBar ul{
+  margin: 50px 0;
+}
+.navBar a{
+  padding: 51px 30px;
+  text-decoration: none;
+  color: black;
+}
+.banner{
+  text-align: center;
+  height: 700px;
+}
+.banner img{
+  z-index: -3;
+  position: fixed;
+  width: 99vw;
+  top: 125px;
+  left: 0;
+  /* margin: auto; */
+}
+.banner_text{
+  z-index: -1;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 30%;
+}
+#bt1{
+  font-size: 17px;
+  font-weight: 700;
+}
+#bt2{
+  font-size: 110px;
+  font-weight: 900;
+}
+#bt3{
+  font-size: 23px;
+  font-weight: 700;
+}
+#banner_button{
+  width: 20%;
+  margin: 20px auto;
+  padding: 10px 0;
+  background-color: black;
+  color: white;
+}
+.grid-container{
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+}
+.meInfo{
+  padding:50px 30px 0 20%;
+}
+.meImg img{
+  height: 80vh;
+}
+.abt_hdr{
+  line-height: 90%;
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0 0 30px;
+}
+#aboutMe{
+  padding: 30px 0;
+}
+.meInfo hr{
+  border: none;
+  height: 7px;
+  background-color: black;
+  width: 7%;
+  margin:20px 100% 20px 0;
+}
+.abt_pg{
+  margin-bottom: 30px;
+}
+#read_buton{
+  text-align: center;
+  width: 120px;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+.howHelp{
+  background-image: url("../images/banner2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+.banner2{
+  position: sticky;
+  top: 120px;
+  width: 99vw;
+  z-index: -2;
+}
+.howBann{
+  border: 12px solid black;
+  width: 70%;
+  left: 15%;
+  position: absolute;
+  top: 250px;
+  text-align: center;
+  padding: 40px 0;
+}
+.howHelp .meInfo{
+  padding-left: 15%;
+}
+
+.howBann .hCont{
+  width: 50%;
+  margin: auto;
+}
+.hc_name{
+  font-size: 21px;
+  font-weight: 800;
+}
+#book{
+  padding: 5px;
+  width: 120px;
+  background-color: #57BBBF;
+  margin: auto;
+}
+.howBann hr{
+  border: none;
+  height: 3px;
+  background-color: black;
+}
+.howBann div{
+  margin-bottom: 20px;
+}
+.footer{
+  background-color: #57bbbf;
+  z-index: 0;
+  height: 100px;
+  text-align: center;
+  padding-top: 80px;
+}
+/* Services */
+
+
+.s_main{
+  background-image: url("../images/banner2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+
+}
+.s_main .meInfo{
+  font-size: 42px;
+}
+.shop{
+  text-align: center;
+  font-size: 18px;
+  width: 25%;
+  margin: auto;
+}
+.shopI{
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+.i_shop1{
+  width: 90%;
+  margin: 30px auto 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.item{
+  font-weight: 300;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  padding: 20px 30px;
+  width: 30%;
+  margin: 1% 1%;
+}
+.item hr{
+  display: none;
+}
+.item .hc_name{
+  font-weight: 500;
+}
+.item div{
+  margin: 5% 0;
+}
+.item #book{
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+/* dateandtime */
+
+
+.dnt{
+
+}
+.dnt .item{
+  float: right;
+  width: 25%;
+  margin-right: 5%;
+}
+.dnt .item hr{
+  display: block;
+  border: none;
+  background-color: black;
+  height: 1px;
+}
+.cdnt{
+  margin:50px 30px 0 20%;
+  font-size: 19px;
+  height: 500px;
+}
+.cdnt .smt{
+  font-weight: 500;
+}
+.momth{
+  padding: 5px 7px;
+}
+.month select{
+  padding: 5px 10px;
+  font-size: 19px;
+}
+.month option{
+  height: 20px;
+  font-size: 19px;
+}
+.slotCont{
+  margin: 30px 0;
+  font-size: 17px;
+  width: 40%;
+
+}
+.slot{
+  display: none;
+  border: 1px solid black;
+  padding: 5px;
+  width: 130px;
+  background: white;
+  margin: 1%;
+}
+/* final */
+
+.finalForm{
+  margin:50px 30px 0 20%;
+  width: 40%;
+}
+.finalForm label{
+  margin: 4% 0 2%;
+  display: block;
+}
+.finalForm input{
+  margin: 1% 0 0;
+  display: block;
+  height: 25px;
+  width: 100%;
+  padding: 2px;
+}
+.fin{
+  padding-bottom: 60px;
+}
+.receipt{
+  text-align: center;
+    display: none;
+}
+.r_hdr{
+  font-size: 22px;
+  padding: 40px 0 20px;
+}
+.r_hdr span{
+  font-size: 13px;
+}
+.r_main{
+  width: 40%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 30px 40px;
+  background-color: white;
+}
+.r_date,.r_main hr,.r_det,.r_date div,.r_det div{
+  display: inline-block;
+}
+
+.r_date{
+  width: 30%;
+  padding-right: 10px;
+  margin: 0 auto 20px;
+}
+.r_det{
+  text-align: left;
+  padding-left: 10px;
+  width: 50%;
+}
+.rDay{
+  font-size: 40px;
+}
+.rMonth{
+  font-size: 22px;
+}
+.rYear{
+  font-size: 20px;
+}
+.r_main .r_det .cName{
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cDesc{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.r_main hr{
+  border: none;
+  background-color: black;
+  width: 1px;
+  height: 150px;
+  margin: 0 20px;
+}
+.cMisc,.cAddr{
+  font-size: 14px;
+  line-height: 200%;
+}
+
+
+/* about */
+.aImg{
+  display: block;
+  float:right;
+  width: 30vw;
+  margin-right: 40px;
+  border: 3px solid white;
+}
+.abt .abt_pg{
+  width: 40%;
+  margin:50px 30px 0 20%;
+  padding-bottom: 60px;
+}
